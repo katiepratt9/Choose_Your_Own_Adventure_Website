@@ -1,0 +1,40 @@
+@charset "utf-8"; 
+
+html{
+    background: url(choice1Bck.png) 100%;
+}
+
+nav#topLinks li{
+    list-style-type: none;
+}
+
+nav a{
+    margin-right: 15px;
+    margin-left: 15px;
+    float: right;
+}
+
+nav#topLinks a {
+    padding: 15px;
+    width: 23%;
+    float: left;
+    display: inline;
+    line-height: 1.8em;
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0em;
+    text-shadow: rgba(40, 28, 2, 1) 1px -1px 1px;
+    transition: color 1.5s ease-in 0.5s, font-size 2s ease, 
+        letter-spacing 2s ease-out, text-shadow 2s cubic-bezier(0.6,0,0.8,0.5);
+}
+nav#topLinks a:hover {
+    color: rgb(255,204, 51);
+    font-size: 1.7em;
+    letter-spacing: 0.1em;
+    text-shadow: rgba(0, 0, 0, 0.5) 15px -3px 8px;
+}
+

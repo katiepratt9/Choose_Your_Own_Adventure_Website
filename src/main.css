@@ -1,0 +1,83 @@
+@charset "utf-8";
+html {
+   font-family: Verdana, Geneva, Arial, sans-serif; 	
+}
+
+h1{
+    font-family: “Playfair Display”, “Didot”, "Times New Roman", Times, serif;
+}
+body img{
+    width: 500px;
+    height: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    border: 2px solid;
+    color: pink;
+}
+body {
+	width: 100%;
+	max-width: 800px;
+    background-color: rgb(34,139,87);  
+	margin: auto;
+	clear: none;
+	float: none;
+	margin-left: auto;
+	-moz-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
+	-webkit-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
+	box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px
+}
+nav{
+   font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+   font-size: 1.4em;
+   line-height: 1.8em;
+   text-align: center;
+}  
+nav a:link, 
+nav a:visited {
+    color: rgb(199, 58, 82);
+}
+nav a:hover, 
+nav a:active {
+}  
+p {
+   text-align: center;
+   margin: auto;
+   color: rgb(3, 13, 3);
+   font-size: 0.9em;
+   line-height: 1.6em;
+}
+footer {
+    background-color: rgb(0,70,139);
+    color: white; 
+    display: block;
+    width: 100%;
+    font: normal small-caps bold 0.8em/3em Quicksand,Verdana, Geneva, sans-serif;
+    text-align: center;
+}
+
+/* Styles for the Countdown Clock */
+
+div#countdown {
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-flow: row nowrap;
+   flex-flow: row nowrap;
+}
+
+div#countdown div {
+   padding-left: 10%;
+   display: block;
+   text-align: center;
+   line-height: 1.2em;
+   font-size: 1.5em;
+   font-family: segment14, sans-serif;
+   margin: 0px 10px;
+   color: rgb(0, 84, 119);
+   text-shadow: 0px 0px 2px darkblue, 0px 0px 4px white, -1px 1px 8px lightblue, 
+                1px -1px 8px lightblue, -1px 1px 12px lightblue, 1px -1px 12px white;
+}
+
+div#countdown div span {
+   font-size: 2.5em;   
+}

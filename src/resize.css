@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* =========================
+   Mobile Styles: 0 to 480px 
+   =========================
+*/
+
+@media only screen and (max-width: 480px) {
+    nav a{
+        font-size: 1.2em;
+    }
+    h1{
+        font-size: 1.3em;
+    }
+    footer{
+        font-size: 1em;
+    }
+     nav a{
+        position: relative;
+        width: 20%;
+    }
+    nav ul{
+        display: flex;
+        flex-flow: row nowrap;
+    }
+    nav li{
+        flex: 1 1 auto;
+    }
+}
+
+
+

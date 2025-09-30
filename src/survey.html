@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <title>Experience and Suggestions</title>
+   <link rel="stylesheet" href="survey.css">
+   <script src = "formsubmit.js"></script>
+</head>
+<body>
+   <section>
+      <h1>Let us Know your experience!</h1>
+      <h2>Thank you for giving us your feedback! let us know how you think we can improve our site, or tell us your ideas for new adventures </h2>
+      <p>Required values are marked by an asterisk (*)</p>
+      <form id = "survey" action="http://www.example.com/adventure/survey" method = "post">
+      <fieldset id = "userInfo">
+          <legend>User Information</legend>
+          <div class = "formRow">
+          <label for "name">Name*</label>
+          <Input name = "userName" id = "name" type = "text" placeholder="first and last name" required/>
+          </div>
+          
+          <div class = "formRow">
+          <label for "mail">E-mail*</label>
+          <Input name = "custEmail" id = "mail" type = "email" required/>
+          </div>
+          
+          <div class="formRow">
+              <label for="info">Where did you hear about us?<br/>(Select all that apply)</label>
+              <select name="infoSrc" id="info" size="6" multiple>
+                  <option value="internet">Internet</option>
+                  <option value="mag">Magazine</option>
+                  <option value="Ad">Ad</option>
+                  <option value="news">Newspaper</option>
+                  <option value="word">Word of Mouth</option>
+                  <option value="other">Other</option>
+              </select>
+          </div>
+          <input name="mailMe" id="mailCB" value="yes" type="checkbox" />
+          <label for="mailCB">Add me to your mailing list for updates on future adventures!</label> 
+      </fieldset>
+      <fieldset id = "expInfo">
+          <legend>Share Your Experiences</legend>
+                  <div class="formRow">
+                      <label for="rangeBox">Rate us overall<br />
+                      (0=poor; 10=great)</label>
+                      0
+                      <input name="serviceRate" id="rangeBox" type="range" value="5" step="1" min="0" max="10" />
+                      10
+                  </div>
+                  <label for="commBox">Tell us more about your experience!</label>
+                  <textarea name="userExp" id="commBox"></textarea>
+              </fieldset>
+      <div id="buttons">
+          <input type="submit" value="Submit" />
+          <input type="reset" value="Cancel" />
+      </div>
+       <nav><a href="home.html">Return to home</a></nav>
+      </form>
+   </section>
+   <footer>
+   </footer>
+</body>
+</html>

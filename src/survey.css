@@ -1,0 +1,115 @@
+@charset "utf-8";
+html {
+    background: url(surveyBck.png) 100%;
+   font-family: Verdana, Geneva, Arial, sans-serif; 	
+}
+h1{
+    text-align: left;
+    font-family: “Playfair Display”, “Didot”, "Times New Roman", Times, serif;
+}
+h2 {
+    text-align: center;
+    font-size: 1em;
+}
+form#survey {
+    display: flex;
+    flex-flow: row wrap;
+}
+form#survey > fieldset{
+    background-color: rgb(210,180,140);
+    border-radius: 20px;
+    flex: 1 1 300px;
+    font-size: 0.85em;
+    padding: 10px;
+    margin: 10px;
+}
+div.formRow{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 7px 0px;
+}
+div.formRow > *{
+    flex: 1 1 150px;
+}
+legend{
+    background-color: rgb(171,26,166);
+    color: white;
+    padding: 5px;
+}
+textarea{
+    margin-top: 10px;
+    height: 100px;
+    width: 95%;
+}
+div#buttons {
+    border: none;
+    font-size: 2em;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+input[type='submit'], input[type='reset'] {
+    font-size: 1.2em;
+    padding: 5px;
+    margin: 15px;
+}
+input:focus, select:focus, textarea:focus {
+    background-color: rgb(220,255,220);
+}
+input#name:focus:valid,
+input#mail:focus:valid {
+    background: rgb(220,255,220) url(valid.png) bottom right/contain no-repeat;
+}
+input#name:focus:invalid,
+input#mail:focus:invalid {
+    background: rgb(255,204,203) url(invalid.png) bottom right/contain no-repeat;
+}
+body {
+	width: 100%;
+	max-width: 800px;
+    background-color: rgb(34,139,87);  
+	margin: auto;
+	clear: none;
+	float: none;
+	margin-left: auto;
+	-moz-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
+	-webkit-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
+	box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px
+}
+nav{
+    font-family: fantasy;
+    font-size: 1.6em;
+    background-color: rgb(86, 139, 34);
+    width: 100%;
+} 
+nav{
+   background-color: rgb(86, 139, 34);
+   font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+   font-size: 1.4em;
+   line-height: 1.8em;
+   text-align: center;
+}  
+nav a:link, 
+nav a:visited {
+   color: rgb(139, 34, 34);
+}
+nav a:hover, 
+nav a:active {
+   background-color: rgb(139, 139, 34);
+}  
+p {
+   text-align: left;
+   margin: auto;
+   color: rgb(3, 13, 3);
+   font-size: 0.9em;
+   line-height: 1.6em;
+}
+footer {
+    margin-top: 70px;
+    font-size: 0.9em;
+    background-color: rgb(0,70,139);
+    color: white; 
+    font: normal small-caps bold 0.9em/3em Quicksand,Verdana, Geneva, sans-serif;
+    text-align: center;
+}

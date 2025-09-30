@@ -1,0 +1,61 @@
+@charset "utf-8";
+html {
+   background: url(lostCityBck.png) 100%;
+}
+h1{
+    text-align: center;
+}
+header img{
+    width: 500px;
+    height: 400px;
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    border: 2px solid;
+    color: pink;
+}
+body {
+    margin-top: 10px;
+	width: 100%;
+	max-width: 800px;
+    background-color: rgb(34,139,87);  
+	padding-left: 0.9%;
+	padding-right: 0.9%;
+	margin: auto;
+	clear: none;
+	float: none;
+	margin-left: auto;
+	-moz-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
+	-webkit-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
+	box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px
+}
+nav{
+   background-color: rgb(86, 139, 34);
+   font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+   font-size: 1.4em;
+   line-height: 1.8em;
+   text-align: center;
+}  
+nav a:link, 
+nav a:visited {
+   color: rgb(139, 34, 34);
+}
+nav a:hover, 
+nav a:active {
+   background-color: rgb(139, 139, 34);
+}  
+p {
+   margin: auto;
+   color: rgb(3, 13, 3);
+   font-size: 0.9em;
+   line-height: 1.6em;
+}
+footer {
+    margin-top: 70px;
+    font-size: 0.9em;
+    background-color: rgb(0,70,139);
+    color: white; 
+    font: normal small-caps bold 0.9em/3em Quicksand,Verdana, Geneva, sans-serif;
+    text-align: center;
+}
